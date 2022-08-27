@@ -47,3 +47,6 @@ if direction.lower() == "left":
         print("Game over. ")
 else:
     print("Game over. ")
+
+
+
