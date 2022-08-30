@@ -278,7 +278,28 @@ word_list = [
 ]
 chosen_word = random.choice(word_list)
 #Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+
+logo = ''' 
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/    '''
+
+
+print("Welcome to: ",logo)
+
+
+
+
+
+
+
+
+
 
 m = []
 a = 6
@@ -295,7 +316,7 @@ while a > 0 and display != chosen_word:
 
         if guess == chosen_word[i]:
 
-            num += 1
+            num = 1
 
             display = display[:i] + guess + display[i + 1:]
 
