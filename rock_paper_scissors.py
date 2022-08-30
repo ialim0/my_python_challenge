@@ -43,8 +43,12 @@ try:
         print("You have to replay")
 
     else :
+        print(f"You choose:\n{tab[your_choice]}")
+        print(f'Computer choose:\n{tab[computer_choice]}')
         print("You lose.")
 except ValueError:
+    print(f"You choose:\n{tab[your_choice]}")
+    print(f'Computer choose:\n{tab[computer_choice]}')
     print('You lose')
 
     
