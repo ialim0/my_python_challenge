@@ -1,4 +1,4 @@
-
+import os
 logo = """
  _____________________
 |  _________________  |
@@ -61,6 +61,8 @@ while end==False:
         end=True
     else:
         n1=symb
+        os.system('clear')
+        
     
 
     

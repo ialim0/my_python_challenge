@@ -332,7 +332,7 @@ data = [
 from random import randrange  #import randrange function from random
 
 import os
-clear = lambda: os.system('cls' if os.name=='nt' else 'clear')
+clear = lambda: os.system('cls' if os.name=='nt' else 'clear') #initialisation of clear methode
 
 print(logo)
 

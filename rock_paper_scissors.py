@@ -50,6 +50,11 @@ except ValueError:
     print(f"You choose:\n{tab[your_choice]}")
     print(f'Computer choose:\n{tab[computer_choice]}')
     print('You lose')
+    from random import randrange
+    print(randrange(10))
+
+    
+    
 
     
 
